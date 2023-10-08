@@ -1,0 +1,111 @@
+.body{
+    background-image: url('/images/trottinette bg.jpg');
+    background-size:cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(4px);
+    z-index: -1;
+}
+.bodycreate{
+    background-image: url('/images/trottinette bg.jpg');
+    background-size:cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(4px);
+    z-index: -1;
+}
+table {
+    border: 2px solid black; 
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+}
+tr{
+    border: 2px solid black;
+}
+td{
+    color:black;    
+}
+.h1{
+    text-align: center;
+    color: whitesmoke;
+}
+.divHeader{
+    /* background-color: gray; */
+    padding: 15px;
+    background-color: rgba(79, 21, 21, 0.5);
+}
+.div2{
+    margin-top: 3%;
+}
+#btn1{
+    border-radius:10px;
+    margin-left: 5%;
+    background-color: rgba(79, 21, 21, 0.5);
+    width: 20% ;
+    border: none;
+}
+#btn2{
+    background-color: rgba(79, 21, 21, 0.5);
+    border-radius:10px;
+}
+.footer 
+{
+    padding: 10px;
+    margin-top: auto; 
+}
+#btn3{
+    text-align: center;
+    border: none;
+    background-color: rgba(230, 11, 11, 0.5);
+    margin-right: 5%;
+}
+#btn4{
+    text-align: center;
+    border: none;
+    background-color: rgba(243, 7, 7, 0.5)
+}
+#di{
+    margin-top: 100px;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.bodylog, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    margin: 0; /* Réinitialise les marges pour le corps */
+}
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.bodyregister, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    margin: 0; /* Réinitialise les marges pour le corps */
+}

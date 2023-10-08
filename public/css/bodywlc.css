@@ -1,0 +1,66 @@
+.b {
+    background-image: url('/images/tt.jpg');
+    background-size:cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(4px);
+    z-index: -1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: background-color 0.5s;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    0% {
+        color: rgb(0, 0, 0);
+    }
+    20% {
+        color: rgb(0, 0, 0);
+    }
+    40% {
+        color: rgb(0, 0, 0);
+    }
+    60% {
+        color: rgb(0, 0, 0);
+    }
+    80% {
+        color: rgb(0, 0, 0);
+    }
+    100% {
+        color: rgb(0, 0, 0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 1.5s infinite ease forwards;
+}
+#btno{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
